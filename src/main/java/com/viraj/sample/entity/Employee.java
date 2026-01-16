@@ -44,6 +44,12 @@ public class Employee {
         this.employeeDescription = employeeDescription;
     }
 
+    public void setEmployeeId(long employeeId) {
+        this.employeeId = employeeId;
+    }
+    public long getEmployeeId() {
+        return employeeId;
+    }
     @Override
     public String toString() {
         return "Employee{" +
